@@ -8,3 +8,5 @@ The following bitstreams were generated with version v7.0.0 of Pulpissimo and co
 
 The directory ``openocd-cfg`` holds config files that are used to communicate with the jtag controller of pulpissimo. Check out the pulpissimo documentation on how to use the config files and how to debug pulpissimo running on an FPGA target
 * openocd-cfg/openocd-zcu104-digilent-jtag-hs3.cfg
+
+The following directory holds FPGA target specifics for Pulpissimo on UltraZed7EV Platform. In order synthesize the design for UltraZed7EV move this directory into the ``fpga`` subdirectory of pulpissimo. Further replace the ``Makefile`` in the ``fpga`` directory of pulpissimo with the customized Makefile ``Makefile_move_to_parent_dir``. Check out the documentation of pulpissimo on how to synthesize pulpissimo for a specific FPGA target. 
