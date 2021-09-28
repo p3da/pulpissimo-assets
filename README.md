@@ -11,3 +11,6 @@ The directory ``openocd-cfg`` holds config files that are used to communicate wi
 
 The following directory holds FPGA target specifics for Pulpissimo on UltraZed7EV Platform. In order synthesize the design for UltraZed7EV move this directory into the ``fpga`` subdirectory of pulpissimo. Further replace the ``Makefile`` in the ``fpga`` directory of pulpissimo with the customized Makefile ``Makefile_move_to_parent_dir``. Check out the documentation of pulpissimo on how to synthesize pulpissimo for a specific FPGA target. 
 * ``pulpissimo-ultrazed7ev``
+
+The following directory holds precompiled elf files for pulpissimo, i.e., applications that can be loaded and run on a FPGA target that was configured with Pulpissimo. Check out the Pulpissimo documentation about how to load and debug an application.
+* ``zcu104-default-design-test`` - can be used on a unmodified version of Pulpissimo v7.0.0; prints ``Hello !`` to UART 
