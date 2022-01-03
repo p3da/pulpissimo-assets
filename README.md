@@ -10,6 +10,9 @@ The following bitstreams were generated with version v7.0.0 of Pulpissimo with t
 * ``bitstrams/pulpissimo_zcu104_pulpissimoV7_wide_alu.bit``, ``bitstreams/pulpissimo_zcu104_pulpissimoV7_wide_alu.bin``
 * ``bitstrams/pulpissimo_ultrazed_7ev_cc_pulpissimoV7_wide_alu.bit``, ``bitstreams/pulpissimo_ultrazed_7ev_cc_pulpissimoV7_wide_alu.bin``
 
+The following bitstream was generated with version v7.0.0 of Pulpissimo extended by the UDP complete example application of verilog-ethernet.
+
+* ``bitstreams/pulpissimo_ultrazed_7ev_cc_udpcomplete_v1.bin``, ``bitstreams/pulpissimo_ultrazed_7ev_cc_udpcomplete_v1.bin``
 
 The directory ``openocd-cfg`` holds config files that are used to communicate with the jtag controller of pulpissimo. Check out the pulpissimo documentation on how to use the config files and how to debug pulpissimo running on an FPGA target
 * ``openocd-cfg/openocd-zcu104-digilent-jtag-hs3.cfg``
